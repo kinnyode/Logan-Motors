@@ -240,7 +240,6 @@ body{
         display: flex;
         padding: 20px;
        color:rgb(255, 255, 255);
-        width: 45%;
         font-size: 75px;
         justify-content: start;
         margin-right: 109px;
@@ -279,4 +278,44 @@ body{
     font-size: 15px;
     align-items: center;
     font-family: myfont;
+}
+@media screen and (max-width:900px){
+    .header{
+        flex-direction: column;
+    }
+    .texts{
+        margin-left: 0;
+    }
+    .threeboxes{
+        flex-direction: column;
+
+    }
+    .threeboxes .row{
+        flex-direction: column;
+    }
+    .box1{
+       height: 220px;
+    }
+    .box2{
+        height: 220px;
+     }
+     .box3{
+        height: 220px;
+     }
+     .body{
+        height: 70vh;
+        
+     }
+     .destext{
+        flex-direction: column;
+        font-size: 45px;
+        margin-right: 0;
+     }
+     .dtext{
+        padding: 0;
+
+     }
+
+
+
 }

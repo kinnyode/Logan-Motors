@@ -88,24 +88,7 @@ body{
     margin-left: 25px;
     padding: 5px;
 }
-.shoplinks{
-    display: flex;
-    flex-direction: column;
-    width: 10%;
-    margin-left: 20px;
-}
-.shoplinks a{
-    align-items: flex-start;
-    display: flex;
-    color: white;
-    text-decoration: none;
-    transition: 0.4s;
-    padding: 10px;
-}
-.shoplinks a:hover{
-    background-color: #006b81;
-    color: white;
-}
+
 @media screen and (max-width: 900px){
 .header{
     flex-direction: column;

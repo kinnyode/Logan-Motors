@@ -1,0 +1,93 @@
+@font-face {
+    font-family: myfont;
+    src: url(Satoshi-Light.ttf);
+}
+@font-face {
+    font-family: myfonttwo;
+    src: url(Satoshi-Medium.otf);
+}
+@font-face {
+    font-family: myfontthree;
+    src: url(hyundai-font/font/HyundaiSansHeadOffice-Medium.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    display: flex;
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.title{
+    margin-left: 150px;
+
+}
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: 15px;
+    font-weight: 100;
+
+}
+.links a{
+    display: flex;
+    color: #006b81;
+    text-decoration: none;
+    transition: 0.4s;
+    padding: 10px;
+}
+.links a:hover{
+    background-color: #006b81;
+    color: white;
+}
+.title{
+    font-family: myfonttwo;
+    font-size: 20px;
+
+}
+.body{
+    background-image: url(reg2.jpg);
+    background-position: center;
+    background-size:cover;
+    width: 100%;
+    height: 90vh;
+    background-repeat: no-repeat;
+    
+}
+.text{
+    margin-top: 100px;
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: white;
+}
+@media screen and (max-width: 900px){
+.header{
+    flex-direction: column;
+
+}
+.title{
+    margin-left: 0;
+}
+}
+    

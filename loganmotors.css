@@ -86,7 +86,7 @@ body{
    border-radius: 40px;
 border: 1px solid transparent;
   transition: 0.4s;
-
+margin-bottom: 70px;
 }
 
 .button:hover{

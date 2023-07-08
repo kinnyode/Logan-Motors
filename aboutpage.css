@@ -66,13 +66,36 @@ body{
     justify-content: center;
     
 }
-.text{
-    width:100%;
+
+.assets{
+    width: 100%;
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    justify-content: space-between;
+}
+
+.footerlinks a{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    text-decoration: underline;
+   font-size: 14px;
+    color: #664fda;
+padding-bottom: 60px;
+padding-right: 40px;
+}
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     color: rgb(0, 0, 0);
+    padding: 10px;
     align-items: center;
+    font-weight: 400;
+    justify-content: center;
+}
+h3 a{
+
 }
 
 .text h1{
@@ -106,7 +129,7 @@ padding: 15px;
     margin-left: 0;
 }
 .text{
-    width: 80%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     color: rgb(0, 0, 0);
@@ -116,7 +139,7 @@ padding: 15px;
 .text p{
     width: 100%;
     display: flex;
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 200;
     font-weight: 100;
 }
@@ -127,7 +150,7 @@ padding: 15px;
 
 
 .text h1{
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 55px;
+    font-weight: 400;
 
 }

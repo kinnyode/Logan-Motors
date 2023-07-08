@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+
 
 *{
     margin:0;
@@ -53,51 +53,38 @@ body{
     margin-right: 30px;
     
 }
-.texts{
-    display: flex;
-    font-size: 15px;
-    font-weight: bold;
-    padding-left: 40px;
-}
+
 
 
 
 .body{
-    padding: 10px;
     display: flex;
-    padding: 40px;
     background-image: url(Kndjdjdkdmdbek/hyundai-motor-group-LMFmiQS87i4-unsplash.jpg);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+   
 
 }
-.button{
+
+.assets{
+    display:flex ;
+    width: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
     display: flex;
-    padding: 5px;
-    width: fit-content;
-     height: fit-content;
-    background-color:  #006b81;
-    margin-top: auto;
-    margin-left: auto;
-    margin-right: auto;
-   border-radius: 40px;
-border: 1px solid transparent;
-  transition: 0.4s;
-margin-bottom: 70px;
 }
 
-.button:hover{
-    border: 1px solid white;
-    background-color: transparent;
 
-}
-.h1{
+.text h1{
+    align-self: center;
     color: white;
-    padding: 15px;
-    
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
 }
 .linkstwo a{
     text-decoration: none;
@@ -110,6 +97,32 @@ margin-bottom: 70px;
     padding: 20px;
     gap: 20px;
     justify-content: left;
+
+}
+
+
+
+.discover{
+    display: flex;
+    padding: 20px;
+    width: 130px;
+    height: fit-content;
+    background-color:  #006b81;
+    justify-content: center;
+    align-self: center;
+color: white;
+    transition: 0.4s;
+    border: 1px solid transparent;
+    border-radius: 40px;
+    font-family: myfont;
+    font-size: 15px;
+    margin-right: 30px;
+}
+
+
+.discover:hover{
+    border: 1px solid white;
+    background-color: transparent;
 
 }
 .box1{
@@ -165,7 +178,7 @@ margin-bottom: 70px;
 .suvbox{
     display: flex;
     padding: 6px;
-    width: fit-content;
+    width: 100px;
     height: fit-content;
     background-color:  #006b81;
     justify-content: center;
@@ -249,25 +262,35 @@ color: white;
 
 .dtext{
     font-weight: bold;
-    width: 70%;
-    color: #ffe600;  
+    width: 100%;
+    color: #ffe600;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dtext h1{
+    font-weight: 600;
+    font-size: 40px;
+    width: 65%;
 }
 .dtextsub{
     font-size: 15px;
     justify-content: start;
     width: 60%;
     color: rgb(255, 255, 255);
+    font-weight: 300;
 }
 .regbox{
     display: flex;
-    padding: 6px;
-    width: fit-content;
+    padding: 5px;
+    width: 120px;
     height: fit-content;
     background-color:  #006b81;
-    justify-content: start;
+    justify-content: center;
     align-items: start;
     margin-top:20px;
-
+border-radius: 40px;
 }
 .reglink a{
     
@@ -277,6 +300,7 @@ color: white;
     padding: 10px;
     font-size: 15px;
     align-items: center;
+    font-weight: 200;
 }
 @media screen and (max-width:900px){
 
@@ -382,7 +406,7 @@ align-items: center;
     margin-left: 0;
     padding-left: 0px;
     font-weight: 500;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .h1{
@@ -391,5 +415,20 @@ align-items: center;
 
 .suvlink a{
     font-weight: 100;
+}
+
+.text h1{
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.discover{
+    margin-right: 0px;
+}
+
+.dtext h1{
+    font-weight: 400;
+    font-size: 30px;
+    width: 65%;
 }
 }
